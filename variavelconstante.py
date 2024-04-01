@@ -6,7 +6,7 @@ LOCAL_1 = 100
 RADAR_RANGE = 1
 
 velocidade = 61
-local_carro = 90
+local_carro = 99
 
 velocidade_no_radar = velocidade > RADAR_1
 passou_no_radar = local_carro >= (LOCAL_1 - RADAR_RANGE) and local_carro <= (LOCAL_1 + RADAR_RANGE)
